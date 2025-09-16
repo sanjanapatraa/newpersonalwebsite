@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanjana's Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', Arial, sans-serif;
+      line-height: 1.7;
+      background: #faf9fb;
+      color: #1f1f1f; 
+    }
+
+    header {
+      background: linear-gradient(135deg, #cdb4db, #ffc8dd, #bde0fe, #a2d2ff);
+      text-align: center;
+      padding: 80px 20px;
+      border-bottom-left-radius: 60px;
+      border-bottom-right-radius: 60px;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.15);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3.2rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      color: #3a0ca3; 
+    }
+
+    header p {
+      margin-top: 12px;
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: #2d0d57;
+    }
+
+    nav {
+      background: #cdb4db;
+      padding: 14px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      gap: 25px;
+    }
+
+    nav ul li a {
+      color: #2d0d57; 
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #3a0ca3; 
+    }
+
+    section {
+      max-width: 850px;
+      margin: 60px auto;
+      padding: 50px 40px;
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    }
+
+    section h2 {
+      font-size: 1.9rem;
+      margin-bottom: 20px;
+      color: #5a189a; 
+      font-weight: 600;
+      border-left: 5px solid #9d4edd;
+      padding-left: 12px;
+    }
+
+    section p, section li {
+      font-size: 1rem;
+      color: #1f1f1f; /* Stronger, darker text */
+    }
+
+    .profile-pic {
+      display: block;
+      margin: 25px auto;
+      width: 190px;
+      height: 190px;
+      border-radius: 50%;
+      border: 5px solid #9d4edd;
+      object-fit: cover;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.15);
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 25px;
+    }
+
+    /* Table Styling */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    table, th, td {
+      border: 2px solid #cdb4db;
+    }
+
+    th, td {
+      padding: 12px 15px;
+      text-align: left;
+      font-size: 1rem;
+      color: #1f1f1f;
+    }
+
+    th {
+      background-color: #cdb4db;
+      color: #fff;
+      font-weight: 600;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f5f0fa;
+    }
+
+    .github-link {
+      display: block;
+      width: fit-content;
+      margin: 50px auto 70px auto;
+      padding: 14px 30px;
+      background: #9d4edd;
+      color: white;
+      font-weight: 600;
+      font-size: 1rem;
+      text-decoration: none;
+      border-radius: 35px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+    }
+
+    .github-link:hover {
+      background: #7b2cbf;
+      transform: translateY(-3px);
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sanjana's Portfolio</h1>
+    <p>Exploring, Learning & Growing Every Day</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#personal-info">Personal Info</a></li>
+      <li><a href="#about-me">About Me</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+    </ul>
+  </nav>
+
+  <section id="personal-info">
+    <h2>Personal Info</h2>
+    <img src="WhatsApp Image 2025-09-11 at 23.20.29_ed50e694.jpg" alt="My Picture" class="profile-pic">
+    <p><strong>Name:</strong> Sanjana Patra</p>
+    <p><strong>Email:</strong> sanjana.patra23@pcu.edu.in</p>
+    <p><strong>Phone:</strong> +91 7972301708</p>
+  </section>
+
+  <section id="about-me">
+    <h2>About Me</h2>
+    <p>
+      I am a curious and passionate learner who loves diving into new things with energy and excitement. 
+      My interests span across teamwork, communication, problem-solving, and discovering unique ways to see and tackle everyday challenges.
+      With an extroverted spirit, a creative (and sometimes quirky) outlook, and a hardworking mindset,
+      I enjoy bringing people together, presenting ideas with confidence, and supporting others whenever I can. I believe in continuous growth, staying positive, and grabbing every opportunity that helps me learn, improve, and leave a little spark of myself in everything I do.
+    </p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <table>
+      <tr>
+        <th>Degree/Class</th>
+        <th>Institution</th>
+        <th>Year</th>
+      </tr>
+      <tr>
+        <td>B.Tech in Computer Science</td>
+        <td>Pimpri Chinchwad University</td>
+        <td>2023 – 2027</td>
+      </tr>
+      <tr>
+        <td>12th Grade</td>
+        <td>Pratibha International School</td>
+        <td>2021 – 2023</td>
+      </tr>
+      <tr>
+        <td>10th Grade</td>
+        <td>Darshan Academy</td>
+        <td>2018 – 2021</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <ul>
+      <li>Blockchain Specialization – Coursera</li>
+      <li>Programming in Java EE – Red Hat</li>
+      <li>Django Web Framework – Coursera</li>
+      <li>Cloud Computing Basics – AWS Academy</li>
+      <li>Software Engineering – Coursera</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Railway Management System (4th Sem)</strong> – A DBMS project with Python connectivity</li>
+      <li><strong>Portfolio Website (5th Sem)</strong> – Designed my own responsive personal site</li>
+      <li><strong>IoT Smart Drip Irrigation (4th Sem)</strong> – Built a prototype with sensors & automation</li>
+      <li><strong>Bridging the gap (2nd Sem)</strong> – Enhanced Communication through intelligent Spell Check and Autocorrect</li>
+      <li><strong>MediMapper (Hackathon)</strong> – Built a Website for better healthcare services in rural areas</li>
+    </ul>
+  </section>
+
+  <section id="hobbies">
+    <h2>Hobbies</h2>
+    <p>Reading novels, listening to podcasts, spending time with animals or learning new things about them, exploring new technologies, traveling, and photography.</p>
+  </section>
+
+  <a href="https://github.com/sanjanapatraa" class="github-link" target="_blank">Visit My GitHub</a>
+
+</body>
+</html>
